@@ -11,9 +11,10 @@ https://github.com/dinuionica/Johnny_bot.git
 On Linux:
 
 ```
+$ sudo apt install python3
+$ sudo apt install pip
+$ pip install pyttsx3
+$ pip install speechrecognition
 $ python3 johnny_bot.py
 ```
 
-The command line interface is quite intuitive, the user will have to enter commands 
-that the shell will interpret and execute. The use of dynamic programming gives a plus
-to this project because the execution is very fast and the memory is dislocated at the end.
