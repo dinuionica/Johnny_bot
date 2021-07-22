@@ -10,8 +10,6 @@ import subprocess
 import os
 
 # the function that turns a text into speech
-
-
 def speak(text):
     engine = pyttsx3.init()
     engine.setProperty("rate", 178)
@@ -19,8 +17,6 @@ def speak(text):
     engine.runAndWait()
 
 # the function that clear the console
-
-
 def clear_console():
     print(chr(27)+'[2j')
     print('\033c')
@@ -28,8 +24,6 @@ def clear_console():
     print("Johnny-bot is listening to you....")
 
 # function that turns a speech to text
-
-
 def speech_to_text():
     clear_console()
     recognizer = sr.Recognizer()
@@ -57,8 +51,6 @@ def speech_to_text():
             print("Unknown error occured")
 
 # the function that parse the installation commands
-
-
 def parse_installation_commands(command):
     speak(command)
     if command == "all apps":
@@ -207,8 +199,6 @@ def parse_commands(text):
             quit()
 
 # main function
-
-
 def main():
     speak("Hello my name is Johnny bot!")
     speak("How can I help you?")
