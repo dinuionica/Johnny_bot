@@ -17,4 +17,5 @@ $ pip install pyttsx3
 $ pip install speechrecognition
 $ python3 johnny_bot.py
 ```
-
+The interaction between user and bot is done with the help of two important packages from python pyttsx3 and 
+speechrecongnizer. It transforms a text into speech, respectively inverse.
