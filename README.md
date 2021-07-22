@@ -6,26 +6,12 @@ time can create notes, can install various applications, can access websites and
 
 Download and Test:
 ```
-https://github.com/dinuionica/Unid-system.git
+https://github.com/dinuionica/Johnny_bot.git
 ```
-
-
 On Linux:
 
 ```
-$ make && ./unid_system
-```
-
-On Mac:
-
-```
-$ open unid_system.c
-```
-
-On Windows:
-
-```
-$ gcc -o unid_system && ./unid_system
+$ python3 johnny_bot.py
 ```
 
 The command line interface is quite intuitive, the user will have to enter commands 
