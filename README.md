@@ -4,7 +4,7 @@
 Johnny bot is a voice assistant created in python to automate various tasks. With its help a user can find out the date,
 time can create notes, can install various applications, can access websites and many other important activities.
 
-Download and Test:
+Download and Test Project :
 ```
 https://github.com/dinuionica/Johnny_bot.git
 ```
